@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<style>
+		#bgr{
+			background: url(./gambar1.jpg);
+			height: 700px;
+			background-repeat: no-repeat;
+
+		}
+		.carousel-inner{
+			margin-top: 300px;
+		}
+		#icon{
+			letter-spacing: 20px;
+		}
+		#dumb{
+			letter-spacing: 20px;
+			margin-left: 30px;
+		}
+		#bgr2{
+			background-color: black;
+			color: white;
+		}
+		#isi{
+			border: none;
+			background-color: black;
+		}
+		.button3{
+			background-color: transparent; 
+			color: white; 
+			border: 2px solid #f44336;
+		}
+		#prog{
+			background: url(gambar6.jpg);
+			height: 200px;
+		}
+		#gbr{
+			border: none;
+		}
+		#table{
+			background-color: black;
+			color: white
+		}
+		.can{
+			color: red;
+		}
+		#bgr3{
+			background: url(./gambar7.jpg);
+			color: white;
+		}
+		.switch {
+		  position: relative;
+		  display: inline-block;
+		  width: 60px;
+		  height: 34px;
+		}
+
+		.switch input { 
+		  opacity: 0;
+		  width: 0;
+		  height: 0;
+		}
+
+		.slider {
+		  position: absolute;
+		  cursor: pointer;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  background-color: #ccc;
+		  -webkit-transition: .4s;
+		  transition: .4s;
+		}
+
+		.slider:before {
+		  position: absolute;
+		  content: "";
+		  height: 26px;
+		  width: 26px;
+		  left: 4px;
+		  bottom: 4px;
+		  background-color: white;
+		  -webkit-transition: .4s;
+		  transition: .4s;
+		}
+
+		input:checked + .slider {
+		  background-color: #2196F3;
+		}
+
+		input:focus + .slider {
+		  box-shadow: 0 0 1px #2196F3;
+		}
+
+		input:checked + .slider:before {
+		  -webkit-transform: translateX(26px);
+		  -ms-transform: translateX(26px);
+		  transform: translateX(26px);
+		}
+		#bgr4{
+			color: black;
+		}
+		#bgr5{
+			background-color: black;
+		}
+		.why{
+			color: white;
+		}
+		#bgr6{
+			background: url(./gambar8.jpg);
+		}
+		#jumbo{
+			background-color: transparent;
+			margin-top: 100px;
+			color: white;
+		}
+		#bgr7{
+			background-color: black;
+			border: none;
+		}
+		#col{
+			background-color: red;
+			margin-bottom: 400px;
+		}
+		#foto6{
+			position: absolute;
+			margin-right:  20px;
+			margin-top: 20px;
+		}
+		#tulis{
+			background-color: red;
+			color: white;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container-fluid" id="bgr">
+		<nav class="navbar navbar-expand-lg navbar-warning">
+			<i class='fas fa-dumbbell' style='font-size:48px;color:red' id="dumb"></i>
+		  <a class="navbar-brand text-white" href="#"><h5>ACTIVITAR</h5></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+		    <ul class="navbar-nav">
+		      <li class="nav-item active">
+		        <a class="nav-link text-white" href="#">HOME<span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link text-white" href="#">ABOUT US</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link text-white" href="#">SCHEDULE</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link text-white" href="#">GALLERY</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link text-white" href="#">BLOG</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link text-white" href="#">CONTACT</a>
+		      </li>
+		    </ul>
+		  </div>
+		    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+		    <ul class="navbar-nav" id="icon">
+		      <li class="nav-item active">
+		        <a href=""><i class="fa fa-pinterest-p" style="font-size:24px;color: white;"></i></a>
+		      </li>
+		      <li class="nav-item">
+		        <a href=""><i class="fa fa-linkedin" style="font-size:24px;color: white;"></i></a>
+		      </li>
+		      <li class="nav-item">
+		        <a href=""><i class="fa fa-pinterest-p" style="font-size:24px;color: white;"></i></a>
+		      </li>
+		      <li class="nav-item">
+		       	<a href=""><i class="fa fa-youtube-play" style="font-size:24px;color: white;"></i></a>
+		      </li>
+		      <li class="nav-item">
+		       	<a href=""><i class="fa fa-instagram" style="font-size:24px;color: white;"></i></a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active text-white text-center">
+		      <h5>JOIN US NOW</h5>
+		      <h1>FITNESS & SPORT</h1><br><br><br>
+		      <button type="button" class="btn btn-outline-light">READ MORE</button>
+		    </div>
+		    <div class="carousel-item text-white text-center">
+		       <h5>JOIN US NOW</h5>
+		      <h1>FITNESS & SPORT</h1><br><br><br>
+		       <button type="button" class="btn btn-outline-warning">READ MORE</button>
+		    </div>
+		    <div class="carousel-item text-center text-white">
+		       <h5>JOIN US NOW</h5>
+		      <h1>FITNESS & SPORT</h1><br><br><br>
+		       <button type="button" class="btn btn-outline-success">READ MORE</button>
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</div>
+	<div class="container-fluid text-center" id="isi">
+		<div class="row">
+		  	<div class="col-sm-4">
+		  		<div class="card bg-dark text-white">
+				  <img src="gambar3.jpg" class="img-fluid" alt="Responsive image">
+				  <div class="card-img-overlay">
+				    <h5 class="card-title">GROUP CLASSES</h5>
+				    <p class="card-text">The sopranos manages to address the biases and benefits of therapy</p>
+				    <button class="button button3">READ MORE</button>
+				  </div>
+				</div>
+		  	</div>
+		  	<div class="col-sm-4">
+		  		<div class="card bg-dark text-white">
+				  <img src="gambar4.jpg" class="img-fluid" alt="Responsive image">
+				  <div class="card-img-overlay">
+				    <h5 class="card-title">PERSONAL TRAINING</h5>
+				    <p class="card-text">Strep throatis very common during the flu season and it can be preceded</p>
+				    <button class="button button3">READ MORE</button>
+				  </div>
+				</div>
+		  	</div>
+		  	<div class="col-sm-4">
+		  		<div class="card bg-dark text-white">
+				  <img src="gambar5.jpg" class="img-fluid" alt="Responsive image">
+				  <div class="card-img-overlay">
+				    <h5 class="card-title">SPORT NUTRITION</h5>
+				    <p class="card-text">A Human being's rigth to life implies his right to have the free and unrestricted</p>
+				    <button class="button button3">READ MORE</button>
+				  </div>
+				</div>
+		  	</div>
+		  </div>
+	</div>
+	<div class="container-fluid" id="bgr2"><br><br><br>
+		<div class="row">
+			<div class="col-sm-6">
+				<h1>WELCOME TO CROSSFIT</h1>
+				<h5>CrossFit is a cutting-edge functional fitness system that can help everyday men</h5>
+				<p>Success istn't really that difficult. There is a significant portion of the population here in North America, that actually want and neeed success to be hard! or those of you who are serious about having more, doing more, giving more, and being more.</p>
+				<button type="button" class="btn btn-danger">Learn More</button>
+			</div>
+			<div class="col-sm-6">
+				<img src="gambar2.jpg"  class="img-fluid" alt="Responsive image">
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid text-center text-white" id="prog"><br><br>
+		<h1>CHOOSE YOUR PROGRAM</h1>
+		<p>Our Crossfit experts can help you discover new training techniques and exercies that</p>
+		<p>offer a dynamic and efficient full-body workout</p>
+	</div>
+	<div class="container-fluid" id="gbr">
+		<div class="card-group text-white">
+		  <div class="card">
+		    <img src="foto.jpg" class="card-img-top" alt="...">
+		    <div class="card-img-overlay"><br><br><br>
+		      <h5 class="card-title">CROSSFIT LEVEL 1</h5>
+		      <p class="card-text">Sufferers around the globe will be happy to hear that there are sleep apnea remedies.</p>
+		      <button class="button button3">READ MORE</button>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img src="foto2.jpg" class="card-img-top" alt="...">
+		    <div class="card-img-overlay"><br><br><br>
+		      <h5 class="card-title">BOOTCAMP</h5>
+		      <p class="card-text">The oil, also called linseed oil, has many industrial uses-it is an important ingredient</p>
+		      <button class="button button3">READ MORE</button>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img src="foto3.jpg" class="card-img-top" alt="...">
+		    <div class="card-img-overlay"><br><br><br>
+		      <h5 class="card-title">ENERGY BLAST</h5>
+		      <p class="card-text">it is a very common occurence  like cold or fever depending upon your style.</p>
+		      <button class="button button3">READ MORE</button>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img src="poto.jpg" class="card-img-top" alt="...">
+		    <div class="card-img-overlay"><br><br><br>
+		      <h5 class="card-title">CLASSIC BODY BALANCE</h5>
+		      <p class="card-text">The procedure is usually a preferred alternative to photorefractive keratectomy.</p>
+		      <button class="button button3">READ MORE</button>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="container-fluid" id="table">
+		<h1 class="text-center">CLASSTIME TABLE</h1>
+		<ul class="nav justify-content-center">
+		  <li class="nav-item">
+		    <a class="nav-link active text-white" href="#">ALL CLASS</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link text-white" href="#">CROSSFIT</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link text-white" href="#">LUNGE BALL</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link text-white" href="#">PPSR</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link text-white" href="#">WALLS</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link text-white" href="#">CANDY</a>
+		  </li>
+		</ul>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="table-responsive-sm" >
+					  <table class="table">
+					    <table class="table table-bordered bg-secondary">
+							  <thead>
+							    <tr>
+							      <th scope="col"></th>
+							      <th scope="col">MONDAY</th>
+							      <th scope="col">TUESDAY</th>
+							      <th scope="col">WEDNESDAY</th>
+							      <th scope="col">THURSDAY</th>
+							      <th scope="col">FRIDAY</th>
+							      <th scope="col">SATURDAY</th>
+							      <th scope="col">SUNDAY</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <th scope="row">10.00</th>
+							      <td></td>
+							      <td></td>
+							      <td></td>
+							      <td></td>
+							      <td></td>
+							      <td></td>
+							      <td></td>
+							    </tr>
+							    <tr>
+							      <th scope="row">14.00</th>
+							      <td></td>
+							      <td></td>
+							      <td></td>
+							      <td></td>
+							      <td></td>
+							      <td></td>
+							      <td></td>
+							    </tr>
+							    <tr>
+							      <th scope="row">16.00</th>
+							      <td rowspan="2"></td>
+							      <td></td>
+							      <td class="text-center">16.00 - 19.00
+							      	<a class="nav-link text-danger" href="#">CANDY</a>
+							      </td>
+							      <td></td>
+							      <td class="text-center">6.00 - 19.00
+							      	<a class="nav-link text-danger" href="#">CANDY</a></td>
+							      <td></td>
+							      <td></td>
+							    </tr>
+							  </tbody>
+							</table>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="container-fluid" id="bgr3"><br><br>
+		<div class="text-center">
+			<h1>CHOOSE YOUR PRICING PLAN</h1>
+			<p>These reports started to surface when congress was having hearings about the</p>
+			<p>painkiller.Vioxx. A Food and Drug Administration staff member.</p>
+			<label class="switch">
+			  <input type="checkbox">
+			  <span class="slider"></span>
+			</label>
+		</div>
+		<div class="container" id="bgr4">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="card-deck">
+					  <div class="card text-center">
+					    <div class="card-body">
+					      <h5 class="card-title">NORMAL</h5>
+					      <h4>$55</h4>
+					      <p>MONTHLY</p><br><br>
+					      <p>Unlimited access to the gym</p>
+					      <p>1 classes per week</p>
+					      <p>FREE drinking package</p>
+					      <p>Lounge Area</p>
+					      <p>Changing Rooms</p>
+					    </div>
+					    
+					  </div>
+					  <div class="card text-center">
+					    <div class="card-body">
+					      <h5 class="card-title">PROFFESSIONAL</h5>
+					      <h4 class="card-text">$95</h4>
+					      <p>monthly</p><br><br>
+					      <p>Unlimited access to the gym</p>
+					      <p>2 classes per week</p>
+					      <p>FREE drinking package</p>
+					      <p>Lounge Area</p>
+					      <p>Changing Rooms</p>
+					    </div>
+					  </div>
+					  <div class="card text-center">
+					    <div class="card-body">
+					      <h5 class="card-title">ADVANCED</h5>
+					      <h4 class="card-text">$165</h4>
+					      <p>monthly</p><br><br>
+					      <p>Unlimited access to the gym</p>
+					      <p>6 classes per week</p>
+					      <p>FREE drinking package</p>
+					      <p>Lounge Area</p>
+					      <p>Changing Rooms</p>
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" id="bgr5"><br><br>
+		<div class="container">
+			<div class="why">
+			<h1>WHY PEOPLE CHOOSE US</h1>
+			<p>Our sports expert and latest sports equipment are the winning combination</p>
+		</div><br><br>
+		<div class="row">
+			<div class="col-sm-4">
+				<i class='fas fa-headphones' style='font-size:48px;color:red'></i>
+				<h3 class="text-white">SUPPORT 24/24</h3>
+				<p style="color: grey">One of the best ways to make a great vacation quickly horrible is to choose the wrong accommodations for you trip.</p>
+			</div>
+			<div class="col-sm-4">
+				<i class='fas fa-users' style='font-size:48px;color:red'></i>
+				<h3 class="text-white">OUR TRAINER</h3>
+				<p style="color: grey">If you are an infrequent traveler you may need some tips to keep the wife happy while you are jet setting around the globe</p>
+			</div>
+			<div class="col-sm-4">
+				<i class='fas fa-heartbeat' style='font-size:48px;color:red'></i>
+				<h3 class="text-white">PERSONALIZED SESSION</h3>
+				<p style="color: grey">To succeed at any endeavor. You must stay the course...no matter what the cost! Here are some surefire tips to help you on your journey.</p>
+			</div>
+		</div><br>
+		<div class="row">
+			<div class="col-sm-4">
+				<i class='fas fa-dumbbell' style='font-size:48px;color:red'></i>
+				<h3 class="text-white">OUR EQUIPMENT</h3>
+			</div>
+			<div class="col-sm-4">
+				<i class='fas fa-running' style='font-size:48px;color:red'></i>
+				<h3 class="text-white">CLASSES DAILLY</h3>
+			</div>
+			<div class="col-sm-4">
+				<i class="fa fa-list-alt" style="font-size:48px;color:red"></i>
+				<h3 class="text-white">FOCUS ON YOUR HEALTH</h3>
+			</div>
+		</div>
+		</div>	
+	</div>
+	<div class="container-fluid" id="bgr6">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="jumbotron" id="jumbo">
+				  <div class="container text-center">
+				    <h1 class="display-4">GYM IN DOWNTOWN NEW YORK</h1>
+				    <i class="fa fa-play-circle" style="font-size:48px;color:red"></i>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" id="bgr7"><br><br>
+		<div class="lagi text-center text-white">
+			<h1>FORM OUR BLOG</h1>
+			<p>List of all news and events that take place related to us</p>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card bg-dark text-white">
+				  <img src="foto4.jpg" class="card-img" alt="...">
+				  <div class="card-img-overlay">
+				    <p class="card-title">Card title</p>
+				    <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
+				  </div>
+				</div><br>
+				<div class="row">
+					<div class="col-sm-12">
+						<img src="foto5.jpg" class="img-fluid" alt="Responsive image">
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4" id="col">
+				<p>GYM & CROSSFIT</p>
+				<h4 class="text-white">FOLLOW OUR CLASSESGYMING 0N INSTAGRAM #BODYBUILDING #PHOTO</h4>
+ 				<div class="row" id="foto6">
+					<div class="col-sm-12">
+						<img src="foto6.jpg" class="img-fluid" alt="Responsive image">
+					</div>
+				</div> 
+			</div>
+			<div class="col-sm-4">
+				<div class="card bg-dark text-white">
+				  <img src="foto7.jpg" class="card-img" alt="...">
+				  <div class="card-img-overlay">
+				    <p class="card-title">Card title</p>
+				    <h5 class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</h5>
+				  </div>
+				</div><br><br>
+				<div class="row">
+					<div class="col-sm-12">
+						<img src="foto8.jpg" class="img-fluid" alt="Responsive image">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid" id="tulis"><br><br>
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="map">
+					<h2>GET STARTED TODAY</h2>
+					<p>New student special $30 unlimited gym for the first week and 50% of our member.</p>
+				</div>
+			</div>
+			<div class="col-sm-6" id="btn">
+				<button type="button" class="btn btn-outline-light">Light</button>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7933.194073504132!2d106.72066301107405!3d-6.184648817761299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f77e7515066d%3A0xa3cb689d4fd3ae37!2sPuri%20Mansion%20Sports%20Club!5e0!3m2!1sid!2sid!4v1581489000080!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="">
+			</iframe>
+		</div>
+	</div>
+	<div class="container-fluid bg-dark"><br><br>
+		<div class="row">
+			<div class="col-sm-3 text-white" style="font-size: 36px">
+				<i class='fas fa-dumbbell' style='font-size:36px;color:red' id="dumb"></i>ACTIVITAR<br><br>
+				<p style="font-size: 20px;color: grey">Despite growht of the internet over the past seven years, the use off toll- free phone numbers in television advertising continues.</p><br>
+				<h5>FOLLOW US</h5>
+				<img src="fb2.png" style="height: 24px">
+				<img src="instagram2.png" style="height: 24px">
+				<img src="google+.png" style="height: 24px;">
+				<img src="linkedin.png" style="height: 24px;">
+			</div>
+			<div class="col-sm-3" style="color: grey">
+				<h4 style="color: white">OUR BLOG</h4><br><br><br>
+				<h5 style="color: white">MOST PEOPLE WHO WORK</h5>
+				<i class='far fa-clock' style='color:red'></i> JAN 02, 2019
+				<br><br>
+				<h5 style="color: white">FREELANCE DESIGN TRICK SHOW</h5>
+				<i class='far fa-clock' style='color:red'></i> JAN 02, 2019
+				<br><br>
+				<h5 style="color: white">HAVE A COMPUTER AT HOME HAVE HAD</h5>
+				<i class='far fa-clock' style='color:red'></i> JAN 02, 2019
+			</div>
+			<div class="col-sm-3 text-white">
+				<h4>PROGRAM</h4><br><br>
+				<p>Bodybuilding</p><br>
+				<p>Running</p><br>
+				<p>Streching</p><br>
+				<p>Weight Loss</p><br>
+				<p>Gym Fitness</p>
+			</div>
+			<div class="col-sm-3 text-white" >
+				<h4 style="color: white">GET INFO</h4><br><br>
+				<i class="fa fa-phone" style="font-size:24px;color:red"></i> Phone:
+				<p style="color: grey">(021)123-456-789</p><br>
+				<i class="fa fa-envelope" style="font-size:24px;color:red"></i> Email:
+				<p style="color: grey">asepsupreme@gmail.com</p>
+				<i class="material-icons" style="font-size:24px;color:red"></i> Address:
+				<p style="color: grey">jl.kenangan</p>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid text-center" style="background: black;height: 65px"><br>
+		<p style="color: grey">Copyright by Riyan</p>
+	</div>
+	
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="web.js"></script>
+</body>
+</html>
